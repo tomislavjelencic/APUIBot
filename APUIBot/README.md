@@ -1,23 +1,20 @@
-﻿# APUIBot
+﻿#ApuiBotNlu
 
-Bot Framework v4 APUI bot.
+Bot Framework v4
 
 ## Prerequisites
 
-- [.NET Core SDK](https://dotnet.microsoft.com/download) version 3.1
+### Install .NET Core
 
-  ```bash
-  # determine dotnet version
-  dotnet --version
-  ```
+- [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet/3.1) version 3.1
 
-## To try this sample
+## To try
 
-- In a terminal, navigate to `APUIBot`
+- In a terminal, navigate to `ApuiBotNlu`
 
     ```bash
     # change into project folder
-    cd APUIBot
+    cd ApuiBotNlu
     ```
 
 - Run the bot from a terminal or from Visual Studio, choose option A or B.
@@ -33,18 +30,14 @@ Bot Framework v4 APUI bot.
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `APUIBot` folder
-  - Select `APUIBot.csproj` file
+  - Navigate to `ApuiBotNlu` folder
+  - Select `ApuiBotNlu.csproj` file
   - Press `F5` to run the project
 
 ## Testing the bot using Bot Framework Emulator
 
-[Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
-
-- Install the Bot Framework Emulator version 4.3.0 or greater from [here](https://github.com/Microsoft/BotFramework-Emulator/releases)
-
-### Connect to the bot using Bot Framework Emulator
+Install [Bot Framework Emulator](https://github.com/microsoft/BotFramework-Emulator/releases/tag/v4.14.1)
 
 - Launch Bot Framework Emulator
-- File -> Open Bot
+- Open Bot
 - Enter a Bot URL of `http://localhost:3978/api/messages`
