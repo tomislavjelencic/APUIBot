@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APUIBot", "APUIBot\APUIBot.csproj", "{6DA9CFAA-2889-4E10-B732-A3ED1DAB1CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DA9CFAA-2889-4E10-B732-A3ED1DAB1CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA9CFAA-2889-4E10-B732-A3ED1DAB1CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA9CFAA-2889-4E10-B732-A3ED1DAB1CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA9CFAA-2889-4E10-B732-A3ED1DAB1CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58ED2A84-4034-4599-9FC3-A3C85C202331}
+	EndGlobalSection
+EndGlobal
